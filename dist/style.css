@@ -622,6 +622,35 @@ video {
   }
 }
 
+.background-gradient {
+  height: 100%;
+  width: 100%;
+  background: #181717 radial-gradient(#575555 5%, transparent 0);
+  background-size: 30px 30px;
+  -webkit-animation: diagonal-se 60s linear infinite;
+          animation: diagonal-se 60s linear infinite;
+}
+
+@-webkit-keyframes diagonal-se {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes diagonal-se {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -188366,3 +188395,4 @@ video {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+
