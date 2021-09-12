@@ -14,4 +14,4 @@
 
 ### Dark background version
 
-<img src="/gif/PuhYzZzabi.gif?raw=true">
+<img src="Projects/gif/PuhYzZzabi.gif?raw=true">

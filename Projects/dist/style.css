@@ -625,7 +625,25 @@ video {
 .background-gradient {
   height: 100%;
   width: 100%;
-  background: #181717 radial-gradient(#575555 5%, transparent 0);
+  background: #222222 radial-gradient(#575555 5%, transparent 0);
+  background-size: 30px 30px;
+  -webkit-animation: diagonal-se 60s linear infinite;
+          animation: diagonal-se 60s linear infinite;
+}
+
+.background-gradient-light {
+  height: 100%;
+  width: 100%;
+  background: #cccaca radial-gradient(#575555 5%, transparent 0);
+  background-size: 30px 30px;
+  -webkit-animation: diagonal-se 60s linear infinite;
+          animation: diagonal-se 60s linear infinite;
+}
+
+.background-gradient-dark {
+  height: 100%;
+  width: 100%;
+  background: #1b1b1b radial-gradient(#575555 5%, transparent 0);
   background-size: 30px 30px;
   -webkit-animation: diagonal-se 60s linear infinite;
           animation: diagonal-se 60s linear infinite;
@@ -649,6 +667,11 @@ video {
   100% {
     background-position: 100% 100%;
   }
+}
+
+.pattren2 {
+  background-color: #DFDBE5;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
 .sr-only {
